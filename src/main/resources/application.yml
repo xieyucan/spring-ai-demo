@@ -6,7 +6,7 @@ spring:
     name: spring-ai-demo
   ai:
     zhipuai:
-      api-key:
+      api-key: ${替换成你自己的key}
       chat:
         options:
           temperature: 0.7
