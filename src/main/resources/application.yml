@@ -1,0 +1,14 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: spring-ai-demo
+  ai:
+    zhipuai:
+      api-key:
+      chat:
+        options:
+          temperature: 0.7
+          model: glm-3-turbo
+        enabled: true
